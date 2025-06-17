@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #f4e8f8; /* light lavender */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #3d2755;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: #6c3b91;
+  font-size: 1.8rem;
+}
+
+#time {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #3d2755;
+}
+
+.buttons button {
+  margin: 8px 6px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #7c4dac; /* default purple */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.buttons button:hover {
+  background-color: #cdb7ec; /* soft hover lavender */
+  color: #3d2755;
+  transform: scale(1.05);
+}
+
+.buttons button:active {
+  transform: scale(0.95);
+  background-color: #e5d3f7;
+}
+
+#lapList {
+  margin-top: 20px;
+  max-height: 150px;
+  overflow-y: auto;
+  list-style: none;
+  padding: 0;
+}
+
+#lapList li {
+  background: #f2e6fd; /* soft lilac */
+  padding: 8px;
+  margin: 6px auto;
+  width: 200px;
+  border-radius: 5px;
+  color: #3d2755;
+  font-size: 1rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
